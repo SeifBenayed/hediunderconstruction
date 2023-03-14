@@ -45,7 +45,6 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   background-blend-mode: darken;
-  filter: blur(10px);
   z-index: -1;
 }
 
@@ -76,6 +75,7 @@ hr {
 }
 
 h1 {
+  margin: auto;
   font-size: 60px;
   text-align: center;
   font-weight: 500;
