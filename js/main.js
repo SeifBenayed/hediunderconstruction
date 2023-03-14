@@ -3,9 +3,9 @@ const percentage = document.querySelector('.progress span')
 
 let per = 0;
 function progressLoad(){
-  if(per>=80){
-    progress.style.width = `80%`;
-    percentage.innerHTML = "80%"
+  if(per>=50){
+    progress.style.width = `50%`;
+    percentage.innerHTML = "50%"
 
   }else{
     progress.style.width = `${per}%`;
